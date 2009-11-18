@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>HSQL Data Source Configuration</comment>
+    <entry key="persistence-descriminator-id">jpa-hibernate-test</entry>
+    
+    <entry key="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</entry>
+    <entry key="hibernate.connection.username">sa</entry>
+    <entry key="hibernate.connection.password"></entry>
+    <entry key="hibernate.connection.url">jdbc:hsqldb:mem:in-memory-test-db</entry>    
+    <entry key="hibernate.show_sql">false</entry>
+    <entry key="hibernate.hbm2ddl.auto">create</entry>
+    <entry key="hibernate.bytecode.use_reflection_optimizer">false</entry>
+    <entry key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</entry>
+    <entry key="hibernate.cache.use_second_level_cache">false</entry>
+</properties>

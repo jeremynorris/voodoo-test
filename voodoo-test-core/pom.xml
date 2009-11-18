@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.voodoo.test</groupId>
+  <artifactId>voodoo-test-core</artifactId>
+  <name>VooDoo Test Core</name>
+  <version>1.0-SNAPSHOT</version>
+  <url>http://maven.apache.org</url>
+  <parent>
+    <groupId>org.voodoo.test</groupId>
+    <artifactId>voodoo-test-buildconfig</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.guice</groupId>
+      <artifactId>guice</artifactId>
+      <version>2.0</version>
+    </dependency>
+  </dependencies>
+</project>

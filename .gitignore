@@ -1,0 +1,16 @@
+target
+.antlr-eclipse
+.checkstyle
+.classpath
+.project
+.settings
+.wtpmodules
+.DS_Store
+testng.xml
+testng-errors.xml
+testng-failures.xml
+test-output
+.fbprefs
+temp-testng-customsuite.xml
+*.iml
+git-daemon-export-ok

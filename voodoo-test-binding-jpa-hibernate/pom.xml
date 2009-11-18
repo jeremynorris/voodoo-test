@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.voodoo.test.binding</groupId>
+  <artifactId>voodoo-test-binding-jpa-hibernate</artifactId>
+  <name>VooDoo Test Binding JPA Hibernate</name>
+  <version>1.0-SNAPSHOT</version>
+  <url>http://maven.apache.org</url>
+  <parent>
+    <groupId>org.voodoo.test</groupId>
+    <artifactId>voodoo-test-buildconfig</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <dependencies>
+    <dependency>
+      <groupId>org.voodoo.test</groupId>
+      <artifactId>voodoo-test-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.guiceyfruit</groupId>
+      <artifactId>guiceyfruit-jpa</artifactId>
+      <version>2.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scannotation</groupId>
+      <artifactId>scannotation</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jboss</groupId>
+      <artifactId>ejb3-persistence</artifactId>
+      <version>3.0</version>
+    </dependency>
+    <!-- For transaction demarcation intercepting (ie: @TransactionAttribute) -->
+    <dependency>
+      <groupId>javax.ejb</groupId>
+      <artifactId>ejb-api</artifactId>
+      <version>3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>3.4.0.GA</version>
+    </dependency>
+  </dependencies>
+</project>
